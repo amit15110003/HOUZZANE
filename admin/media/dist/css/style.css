@@ -1,0 +1,22 @@
+.btn-sas{
+  border: 1px solid white !important;
+  color: white !important;
+  margin-bottom: 15%;
+}
+.btn-sas:hover {
+  background-color: white !important;
+  color: black !important;
+  transition-duration: 200ms;
+}
+.form-sas{
+  height: 45px !important;
+  margin-top: 15px;
+}
+blockquote{
+  padding: 0px 8px;
+  cursor: pointer;
+}
+blockquote:hover {
+      border-left: 5px solid black;
+      color: black;
+}

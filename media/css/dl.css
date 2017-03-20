@@ -1,0 +1,273 @@
+/*universal*/
+.row{
+    margin-bottom: 0px;
+}
+body{
+    background-color: #F0F0F0;
+}
+.row .col{
+    padding: 0px;
+}
+.card{
+    margin: 0rem 0 0rem 0;
+}
+/*universal ended */
+.card-1-ib{
+    margin-right: 33px;
+    width: 31.222% !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.card-2-ib{
+    margin-right: 33px;
+    width: 31.222% !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.card-3-ib{
+    width: 31.222% !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.parallax-container {
+    height: 350px;
+}
+
+.box1{
+    height: 287px;
+    background-color: white;
+    margin-right: 33px;
+    width: 31.222% !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+}
+.box2{
+    height: 287px;
+    /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0));*/
+    /*background-image: url("../img/sample.jpg");*/
+    background-repeat: repeat-x;;
+    margin-right: 33px;
+        background-color: white;
+    width: 31.222% !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: relative;
+
+}
+.box3{
+    height: 287px;
+    background-color: white;
+    width: 31.222% !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+}
+.box4{
+    height: 392px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.margin-ib{
+    padding-top: 5%;
+}
+.container{
+    width: 85%;
+}
+.bg-wrap{
+    height: 350px;
+    background-color: black;
+    opacity: .3;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header-background-gradient{
+    top: 0;
+    height: 65px;
+    width: 100%;
+    z-index: 1;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -ms-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    background-repeat: repeat-x;
+    position: absolute;
+    background-color: transparent;
+        position: absolute;
+}
+.header-background-gradient-l{
+    top: 0;
+    height: 65px;
+    width: 100%;
+    z-index: 1;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -ms-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    background-repeat: repeat-x;
+    position: absolute;
+    background-color: transparent;
+        position: absolute;
+}
+.header-background-left-gradient{
+    left: 0;
+    height: 100%;
+    width: 45%;
+    z-index: 1;
+    background: -webkit-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -ms-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    background-repeat: repeat-y;
+    position: absolute;
+    background-color: transparent;
+}
+.header-background-left-gradient-l{
+    left: 0;
+    height: 100%;
+    width: 45%;
+    z-index: 1;
+    background: -webkit-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -ms-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(left,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    background-repeat: repeat-y;
+    position: absolute;
+    background-color: transparent;
+}
+.header-background-right-gradient{
+    right: 0;
+    height: 100%;
+    width: 45%;
+    z-index: 1;
+    background: -webkit-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -ms-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    background-repeat: repeat-y;;
+    position: absolute;
+    background-color: transparent;
+}
+.header-background-right-gradient-l{
+    right: 0;
+    height: 100%;
+    width: 45%;
+    z-index: 1;
+    background: -webkit-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear,0,100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -ms-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(right,rgba(0,0,0,.1) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    background-repeat: repeat-y;;
+    position: absolute;
+    background-color: transparent;
+}
+.view-ib{
+    position: absolute;
+    z-index: 100;
+    right: 0;
+}
+.filters-container{
+    position: fixed;
+    background-color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    min-width: 1014px;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    top: 40px;
+}
+.drop-body-ib{
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+[type="checkbox"].filled-in:checked+label:before {
+    width: 7px;
+    height: 11px;
+}
+[type="checkbox"].filled-in:not(:checked)+label:after {
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 2px solid #5a5a5a;
+}
+[type="checkbox"].filled-in:checked+label:after {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #26a69a;
+    background-color: #26a69a;
+}
+.icons-ib{
+    font-size: 1.4rem;
+}
+/*.icons-ib:hover{
+          -webkit-transform: rotateZ(180deg);
+      -moz-transform: rotateZ(180deg);
+      transform: rotateZ(180deg);
+}*/
+.heading{
+position: absolute;
+    top: 40%;
+    left: 0;
+    align-content: center;
+    font-size: 45px;
+    color: white;
+    z-index: 2;
+    right: 0;
+    text-shadow: 2px 2px 2px 2px #000000;
+}
+.btn-listing:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+#options_sp label:hover{
+    color: #e6e6e6;
+}
+#options_ar label:hover{
+    color: #e6e6e6;
+}
+#options_ty label:hover{
+    color: #e6e6e6;
+}
+/*[type="checkbox"].filled-in:checked+label:after{
+    border :2px solid red;
+}*/
+label{
+    color: #000000;
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{
+    box-shadow:none;
+}
+nav li{
+    line-height: 40px;
+}
+nav {
+    height: 40px;
+}
+.navbar-fixed {
+    height: 40px;
+}
+
+   
